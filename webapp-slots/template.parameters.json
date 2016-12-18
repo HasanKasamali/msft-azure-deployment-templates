@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "msft-hosting-plan"
+    },
+    "siteName": {
+      "value": "msft-rg-web"
+    },
+    "tstSlot": {
+      "value": "tst"
+    },
+    "accSlot": {
+      "value": "acc"
+    },
+    "skuName": {
+      "value": "S1"
+    },
+    "skuCapacity": {
+      "value": 1
+    },
+    "appInsightsName": {
+      "value": "msft-insights"
+    },
+    "appInsightsName-tst": {
+      "value": "msft-insights-tst"
+    },
+    "appInsightsName-acc": {
+      "value": "msft-insights-acc"
+    }
+  }
+}
